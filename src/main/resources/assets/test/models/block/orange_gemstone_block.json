@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "test:block/orange_gemstone_block"
+  }
+}

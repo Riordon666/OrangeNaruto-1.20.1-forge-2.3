@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "bxd",
+    " c "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:chest"
+    },
+    "a": {
+      "item": "minecraft:diamond"
+    },
+    "b": {
+      "item": "minecraft:iron_ingot"
+    },
+    "c": {
+      "item": "minecraft:emerald"
+    },
+    "d": {
+      "item": "minecraft:gold_ingot"
+    }
+  },
+  "result": {
+    "item": "test:chest_detector",
+    "count": 1
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "recipes": [
+    {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "N N",
+        "N N",
+        "   "
+      ],
+      "key": {
+        "N": {
+          "item": "test:orange_gemstone"
+        }
+      },
+      "result": {
+        "item": "test:orange_boots",
+        "count": 1
+      }
+    },
+    {
+      "type": "minecraft:crafting_shaped",
+      "pattern": [
+        "   ",
+        "N N",
+        "N N"
+      ],
+      "key": {
+        "N": {
+          "item": "test:orange_gemstone"
+        }
+      },
+      "result": {
+        "item": "test:orange_boots",
+        "count": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xyx",
+    "yyy",
+    "xyx"
+  ],
+  "key": {
+    "x": {
+      "item": "test:red_gemstone"
+    },
+    "y": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "test:orange_gemstone",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS" ,
+    "S S",
+    "S S"
+  ],
+  "key": {
+    "S": {
+      "item": "test:orange_gemstone"
+    }
+  },
+  "result": {
+    "item": "test:orange_leggings",
+    "count": 1
+  }
+}

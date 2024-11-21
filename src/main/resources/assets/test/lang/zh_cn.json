@@ -1,0 +1,20 @@
+{
+  "item.test.orange_gemstone": "橙宝石",
+  "item.test.orange_sword": "橙宝石剑",
+  "item.test.orange_axe": "橙宝石斧",
+  "item.test.orange_pickaxe": "橙宝石镐",
+  "item.test.orange_shovel": "橙宝石铲",
+  "item.test.orange_hoe": "橙宝石锄",
+  "item.test.red_gemstone": "红宝石",
+  "item.test.metal_detector": "矿石探测器",
+  "item.test.chest_detector": "宝箱探测器",
+
+  "item.test.orange_helmet": "橙宝石头盔",
+  "item.test.orange_chestplate": "橙宝石胸甲",
+  "item.test.orange_leggings": "橙宝石护腿",
+  "item.test.orange_boots": "橙宝石靴子",
+
+
+  "block.test.orange_gemstone_block":"橙宝石块",
+  "block.test.red_ore":"红宝石矿"
+}
