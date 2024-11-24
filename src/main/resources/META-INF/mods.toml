@@ -39,7 +39,7 @@ authors="Riordon" #optional
 #displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''这是Riordon的模组,当前版本为2.0，
+description='''这是Riordon的模组,当前版本为2.0,
 更新日志：
 1.新增食物‘黄瓜’,吃下获得1分钟‘生命恢复’效果;
 2.新增食物‘莴苣’,吃下获得1分钟‘抗性提升’效果;
