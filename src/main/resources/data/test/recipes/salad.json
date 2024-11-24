@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "bcd",
+    "yxy"
+  ],
+  "key": {
+    "x": {
+      "item": "test:plate"
+    },
+    "a": {
+      "item": "test:huanggua"
+    },
+    "b": {
+      "item": "test:woju"
+    },
+    "c": {
+      "item": "test:fanqie"
+    },
+    "d": {
+      "item": "test:bocai"
+    },
+    "y": {
+      "item": "test:red_gemstone"
+    }
+  },
+  "result": {
+    "item": "test:salad",
+    "count": 1
+  }
+}

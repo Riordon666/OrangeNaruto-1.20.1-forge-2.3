@@ -1,0 +1,44 @@
+{
+  "display": {
+    "icon": {
+      "item": "test:orange_helmet"
+    },
+    "title": "橙宝石护体,我已灯神!",
+    "description": "穿上一整套橙宝石盔甲",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "test:orange_gemstone",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "test:orange_helmet"
+              ]
+            },
+            "chest": {
+              "items": [
+                "test:orange_chestplate"
+              ]
+            },
+            "legs": {
+              "items": [
+                "test:orange_leggings"
+              ]
+            },
+            "feet": {
+              "items": [
+                "test:orange_boots"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

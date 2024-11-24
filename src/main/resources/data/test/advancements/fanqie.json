@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "test:fanqie"
+    },
+    "title": "酸酸甜甜真美味",
+    "description": "吃一口番茄"
+  },
+  "parent": "test:salad",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "test:fanqie"
+          ]
+        }
+      }
+    }
+  }
+}

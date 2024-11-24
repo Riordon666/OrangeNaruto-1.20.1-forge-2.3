@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " xy",
+    "   "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:wheat"
+    },
+    "y": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result": {
+    "item": "test:huanggua",
+    "count": 1
+  }
+}

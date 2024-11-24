@@ -29,7 +29,16 @@ public class ModBlocks {
     public static final RegistryObject<Block> RED_ORE = BLOCKS.register("red_ore",
             ()->new Block(BlockBehaviour.Properties.of()
                     .mapColor(MapColor.COLOR_RED)
-                    .strength(1.0F, 6.0F)
+                    .strength(2.0F, 6.0F)
+                    .lightLevel(value -> 10)
+                    .sound(SoundType.METAL)
+                    .requiresCorrectToolForDrops()
+            ));
+
+    public static final RegistryObject<Block> RED_BLOCK = BLOCKS.register("red_block",
+            ()->new Block(BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.COLOR_RED)
+                    .strength(4.0F, 6.0F)
                     .lightLevel(value -> 15)
                     .sound(SoundType.METAL)
                     .requiresCorrectToolForDrops()
@@ -42,6 +51,9 @@ public class ModBlocks {
 
     public static final RegistryObject<Item> RED_ORE_ITEM = ModItems.ITEMS.register("red_ore",
             () -> new BlockItem(RED_ORE.get(), new Item.Properties().rarity(Rarity.EPIC)));
+
+    public static final RegistryObject<Item> RED_BLOCK_ITEM = ModItems.ITEMS.register("red_block",
+            () -> new BlockItem(RED_BLOCK.get(), new Item.Properties().rarity(Rarity.EPIC)));
 
 
 

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "test:red_block"
+    }
+  ],
+  "result":
+  {
+    "item":"test:red_gemstone",
+    "count": 9
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "test:salad"
+    },
+    "title": "呜呜呜,终于吃上沙拉了兄弟们",
+    "description": "吃一碗美味的沙拉"
+  },
+  "parent": "test:orange_gemstone",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "test:salad"
+          ]
+        }
+      }
+    }
+  }
+}

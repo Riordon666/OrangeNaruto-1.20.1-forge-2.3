@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "test:orange_axe"
+    },
+    "title": "没啥用的橙宝石斧",
+    "description": "获得第一把橙宝石斧",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "test:orange_sword",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "test:orange_axe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

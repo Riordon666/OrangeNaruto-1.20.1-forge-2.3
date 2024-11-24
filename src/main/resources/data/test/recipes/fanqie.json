@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " xy",
+    "   "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:wheat"
+    },
+    "y": {
+      "item": "minecraft:red_dye"
+    }
+  },
+  "result": {
+    "item": "test:fanqie",
+    "count": 1
+  }
+}
+

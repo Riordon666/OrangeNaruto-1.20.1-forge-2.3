@@ -2,6 +2,8 @@ package net.xwj.test.moditem;
 
 import net.xwj.test.moditem.custom.ChestDetectorItem;
 import net.xwj.test.moditem.custom.MetalDetectorItem;
+import net.xwj.test.moditem.custom.PlateItem;
+import net.xwj.test.moditem.custom.SaladItem;
 import net.xwj.test.test;
 import net.xwj.test.tools.ModToolTiers;
 import net.minecraft.world.food.FoodProperties;
@@ -32,6 +34,25 @@ public class ModItems {
     public static final RegistryObject<Item> EXAMPLE_ITEM = ITEMS.register("example_item",
             () -> new Item(new Item.Properties().food(new FoodProperties.Builder()
                     .alwaysEat().nutrition(1).saturationMod(2f).build())));
+
+    public static final RegistryObject<Item> SALAD = ITEMS.register("salad",
+            ()->new SaladItem(new Item.Properties().food(ModFoods.SALAD)));
+
+    public static final RegistryObject<Item> WOJU = ITEMS.register("woju",
+            ()->new Item(new Item.Properties().food(ModFoods.WOJU)));
+
+    public static final RegistryObject<Item> FANQIE = ITEMS.register("fanqie",
+            ()->new Item(new Item.Properties().food(ModFoods.FANQIE)));
+
+    public static final RegistryObject<Item> HUANGGUA = ITEMS.register("huanggua",
+            ()->new Item(new Item.Properties().food(ModFoods.HUANGGUA)));
+
+    public static final RegistryObject<Item> BOCAI = ITEMS.register("bocai",
+            ()->new Item(new Item.Properties().food(ModFoods.BOCAI)));
+
+    public static final RegistryObject<Item> PLATE = ITEMS.register("plate",
+            ()->new PlateItem(new Item.Properties().food(ModFoods.PLATE)));
+
 
     //工具
     public static final RegistryObject<SwordItem> ORANGE_SWORD = ITEMS.register("orange_sword",

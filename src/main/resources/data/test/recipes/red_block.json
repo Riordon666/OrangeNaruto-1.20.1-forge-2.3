@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "   " ,
-    "S S",
-    "S S"
+    "xxx",
+    "xxx",
+    "xxx"
   ],
   "key": {
-    "S": {
-      "item": "test:orange_gemstone"
+    "x": {
+      "item": "test:red_gemstone"
     }
   },
   "result": {
-    "item": "test:orange_boots",
+    "item": "test:red_block",
     "count": 1
   }
 }

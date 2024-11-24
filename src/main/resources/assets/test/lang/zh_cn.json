@@ -14,7 +14,15 @@
   "item.test.orange_leggings": "橙宝石护腿",
   "item.test.orange_boots": "橙宝石靴子",
 
+  "item.test.salad": "沙拉",
+  "item.test.woju": "莴苣",
+  "item.test.fanqie": "番茄",
+  "item.test.huanggua": "黄瓜",
+  "item.test.bocai": "菠菜",
+  "item.test.plate": "盘子",
+
 
   "block.test.orange_gemstone_block":"橙宝石块",
-  "block.test.red_ore":"红宝石矿"
+  "block.test.red_ore":"红宝石矿",
+  "block.test.red_block":"红宝石块"
 }

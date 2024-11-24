@@ -1,17 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "   " ,
-    "S S",
-    "S S"
+    "   ",
+    "x x",
+    "xxx"
   ],
   "key": {
-    "S": {
-      "item": "test:orange_gemstone"
+    "x": {
+      "item": "minecraft:glass"
     }
   },
   "result": {
-    "item": "test:orange_boots",
+    "item": "test:plate",
     "count": 1
   }
 }

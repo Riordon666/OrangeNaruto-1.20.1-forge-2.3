@@ -22,8 +22,11 @@ public class ModCreativeModTabs {
             .displayItems((parameters, output) -> {
                 output.accept(ModItems.ORANGE_GEMSTONE.get());
                 output.accept(ModItems.RED_GEMSTONE.get());
+
                 output.accept(ModBlocks.ORANGE_GEMSTONE_BLOCK_ITEM.get());
                 output.accept(ModBlocks.RED_ORE_ITEM.get());
+                output.accept(ModBlocks.RED_BLOCK_ITEM.get());
+
                 output.accept(ModItems.ORANGE_SWORD.get());
                 output.accept(ModItems.ORANGE_AXE.get());
                 output.accept(ModItems.ORANGE_SHOVEL.get());
@@ -35,6 +38,12 @@ public class ModCreativeModTabs {
                 output.accept(ModItems.ORANGE_CHESTPLATE.get());
                 output.accept(ModItems.ORANGE_LEGGINGS.get());
                 output.accept(ModItems.ORANGE_BOOTS.get());
+                output.accept(ModItems.SALAD.get());
+                output.accept(ModItems.WOJU.get());
+                output.accept(ModItems.FANQIE.get());
+                output.accept(ModItems.HUANGGUA.get());
+                output.accept(ModItems.BOCAI.get());
+                output.accept(ModItems.PLATE.get());
                 // 将物品加入该物品栏内
             }).build());
 

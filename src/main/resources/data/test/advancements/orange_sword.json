@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "test:orange_sword"
+    },
+    "title": "以此之剑,斩无不断!",
+    "description": "获得第一把橙宝石剑",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "test:orange_gemstone",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "test:orange_sword"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
