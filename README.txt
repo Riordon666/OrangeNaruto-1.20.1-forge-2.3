@@ -1,46 +1,27 @@
+模组介绍：红宝石与橙宝石扩展 + 新型探测器
+这个模组不仅带来了全新的红宝石和橙宝石宝石系统，还为《我的世界》的玩家们添加了两种超级实用的探测器：矿石探测器和宝箱探测器。这些新道具将大大提升你的探索效率，帮助你在浩瀚的世界中快速找到资源和宝藏！
 
-Source installation information for modders
--------------------------------------------
-This code follows the Minecraft Forge installation methodology. It will apply
-some small patches to the vanilla MCP source code, giving you and it access 
-to some of the data and functions you need to build a successful mod.
+1. 红宝石与橙宝石：
+红宝石：通过挖掘红宝石矿石获取。这些矿石在地下深处生成，你需要使用铁镐或更高等级的工具来开采。红宝石不仅能用于合成强力工具，还能与钻石合成更强大的橙宝石。
 
-Note also that the patches are built against "un-renamed" MCP source code (aka
-SRG Names) - this means that you will not be able to read them directly against
-normal code.
+橙宝石：由红宝石和钻石合成而成，具有超高的硬度与耐久性。橙宝石可以用来打造一系列新的强力工具和武器，包括橙宝石剑、橙宝石镐等，这些道具不仅更耐用，还能提供更高的效率和伤害。
 
-Setup Process:
-==============================
+2. 新型探测器：
+矿石探测器
 
-Step 1: Open your command-line and browse to the folder where you extracted the zip file.
+功能：矿石探测器可以帮助你探测并标记出某一方块下方的矿物。只需要右键点击一个方块，矿石探测器就会扫描该方块下方的Y轴范围，并显示出下方所有矿物的位置（如铁矿、金矿、钻石矿等）。这让你可以更加高效地挖掘，尤其是在寻找稀有矿石时更加方便。
+宝箱探测器
 
-Step 2: You're left with a choice.
-If you prefer to use Eclipse:
-1. Run the following command: `./gradlew genEclipseRuns`
-2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
-   or run `gradlew eclipse` to generate the project.
-
-If you prefer to use IntelliJ:
-1. Open IDEA, and import project.
-2. Select your build.gradle file and have it import.
-3. Run the following command: `./gradlew genIntellijRuns`
-4. Refresh the Gradle Project in IDEA if required.
-
-If at any point you are missing libraries in your IDE, or you've run into problems you can 
-run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
-(this does not affect your code) and then start the process again.
-
-Mapping Names:
-=============================
-By default, the MDK is configured to use the official mapping names from Mojang for methods and fields 
-in the Minecraft codebase. These names are covered by a specific license. All modders should be aware of this
-license, if you do not agree with it you can change your mapping names to other crowdsourced names in your 
-build.gradle. For the latest license text, refer to the mapping file itself, or the reference copy here:
-https://github.com/MinecraftForge/MCPConfig/blob/master/Mojang.md
-
-Additional Resources: 
-=========================
-Community Documentation: https://docs.minecraftforge.net/en/1.20.1/gettingstarted/
-LexManos' Install Video: https://youtu.be/8VEdtQLuLO0
-Forge Forums: https://forums.minecraftforge.net/
-Forge Discord: https://discord.minecraftforge.net/
+功能：宝箱探测器是一个非常有趣的道具。它允许你右键点击一个方块，探测该方块周围100格范围内的所有宝箱位置。无论是地下矿洞中的自然生成宝箱，还是你自己建造的储物箱，宝箱探测器都会帮助你轻松找到它们，免去大量的寻找时间。
+3. 新增工具与武器：
+橙宝石工具与武器：利用橙宝石，你可以合成出一系列强力工具和武器，它们在攻击力、耐久性和工作效率上都比钻石工具更为出色。
+橙宝石剑：超高攻击力，适合应对更强大的敌人。
+橙宝石镐：高效采矿，挖掘速度更快，耐久度更高。
+橙宝石斧头、铲子等：提升生存效率，减少资源消耗。
+4. 模组亮点：
+红宝石与橙宝石：新增了红宝石和橙宝石两种宝石系统，让游戏的矿产资源更加丰富多样。
+矿石探测器：可以帮助你轻松找到地下的矿石，省去不必要的挖掘时间，让矿产收集变得更加轻松。
+宝箱探测器：帮助你在广袤的世界中快速找到宝箱，无论是自然生成的还是自己放置的，让探险和资源存储管理变得更加高效。
+全新合成体系：橙宝石工具与武器将提升你的游戏体验，让你在战斗和探索中更加得心应手。
+5. 总结：
+这个模组将《我的世界》的冒险、探索与生存体验提升到了一个全新的高度。新增的红宝石和橙宝石系统使得资源的收集和工具的制作更具挑战性与乐趣；而矿石探测器和宝箱探测器则为玩家提供了极大的便利，让探索与发现更加高效。无论是喜欢挖掘、战斗还是探索的玩家，这个模组都能带给你更多的乐趣和成就感。
