@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "test:flying_thunder"
+    },
+    "title": "飞雷神·时空疾风闪光连段·零式",
+    "description": "获得飞雷神苦无，掌握飞雷神的力量!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "test:orange_gemstone",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "test:flying_thunder"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
