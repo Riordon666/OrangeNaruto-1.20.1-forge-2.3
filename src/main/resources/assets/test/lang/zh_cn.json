@@ -8,6 +8,9 @@
   "item.test.red_gemstone": "红宝石",
   "item.test.metal_detector": "矿石探测器",
   "item.test.chest_detector": "宝箱探测器",
+  "item.test.flying_thunder": "飞雷神",
+
+  "entity.test.flying_thunder_god": "飞雷神苦无",
 
   "item.test.orange_helmet": "橙宝石头盔",
   "item.test.orange_chestplate": "橙宝石胸甲",
@@ -24,5 +27,8 @@
 
   "block.test.orange_gemstone_block":"橙宝石块",
   "block.test.red_ore":"红宝石矿",
-  "block.test.red_block":"红宝石块"
+  "block.test.red_block":"红宝石块",
+
+  "key.category.test": "橙宝石类",
+  "key.test.teleport": "飞雷神传送"
 }

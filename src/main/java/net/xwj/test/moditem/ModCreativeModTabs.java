@@ -44,6 +44,7 @@ public class ModCreativeModTabs {
                 output.accept(ModItems.HUANGGUA.get());
                 output.accept(ModItems.BOCAI.get());
                 output.accept(ModItems.PLATE.get());
+                output.accept(ModItems.FLYING_THUNDER.get());
                 // 将物品加入该物品栏内
             }).build());
 

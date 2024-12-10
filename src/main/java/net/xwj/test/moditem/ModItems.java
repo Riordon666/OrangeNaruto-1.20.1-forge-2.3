@@ -1,9 +1,6 @@
 package net.xwj.test.moditem;
 
-import net.xwj.test.moditem.custom.ChestDetectorItem;
-import net.xwj.test.moditem.custom.MetalDetectorItem;
-import net.xwj.test.moditem.custom.PlateItem;
-import net.xwj.test.moditem.custom.SaladItem;
+import net.xwj.test.moditem.custom.*;
 import net.xwj.test.test;
 import net.xwj.test.tools.ModToolTiers;
 import net.minecraft.world.food.FoodProperties;
@@ -29,6 +26,10 @@ public class ModItems {
 
     public static final RegistryObject<Item> CHEST_DETECTOR = ITEMS.register("chest_detector",
             ()->new ChestDetectorItem(new Item.Properties().rarity(Rarity.EPIC).durability(100)));
+
+    public static final RegistryObject<Item> FLYING_THUNDER = ITEMS.register("flying_thunder",
+            ()->new FlyingThunderGodItem(new Item.Properties().rarity(Rarity.EPIC).durability(25)));
+
 
     // 创建一个食物
     public static final RegistryObject<Item> EXAMPLE_ITEM = ITEMS.register("example_item",

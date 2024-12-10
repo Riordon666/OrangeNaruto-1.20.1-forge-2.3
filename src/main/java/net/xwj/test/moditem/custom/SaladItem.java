@@ -24,7 +24,7 @@ public class SaladItem extends Item {
     public void appendHoverText(ItemStack stack, @Nullable Level level, List<Component> tooltip, TooltipFlag flag) {
         super.appendHoverText(stack, level, tooltip, flag);
 
-        tooltip.add(Component.literal("§a吃了它你就有神器力量")
+        tooltip.add(Component.literal("§a吃了它你就有神奇力量")
                 .setStyle(Style.EMPTY.withColor(TextColor.fromRgb(0x00FF00))));
     }
     @SubscribeEvent
