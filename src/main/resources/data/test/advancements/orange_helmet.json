@@ -11,33 +11,31 @@
   },
   "parent": "test:orange_gemstone",
   "criteria": {
-    "requirement": {
-      "trigger": "minecraft:player_interacted_with_entity",
+    "has_full_armor": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": {
-          "equipment": {
-            "head": {
-              "items": [
-                "test:orange_helmet"
-              ]
-            },
-            "chest": {
-              "items": [
-                "test:orange_chestplate"
-              ]
-            },
-            "legs": {
-              "items": [
-                "test:orange_leggings"
-              ]
-            },
-            "feet": {
-              "items": [
-                "test:orange_boots"
-              ]
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "items": ["test:orange_helmet"]
+                },
+                "chest": {
+                  "items": ["test:orange_chestplate"]
+                },
+                "legs": {
+                  "items": ["test:orange_leggings"]
+                },
+                "feet": {
+                  "items": ["test:orange_boots"]
+                }
+              }
             }
           }
-        }
+        ]
       }
     }
   }
