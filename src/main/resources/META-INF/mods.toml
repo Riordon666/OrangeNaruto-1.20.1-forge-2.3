@@ -17,7 +17,7 @@ license="${mod_license}"
 # The modid of the mod
 modId="test" #mandatory
 # The version number of the mod
-version="1.20.1-2.0" #mandatory
+version="1.20.1-2.1" #mandatory
 # A display name for the mod
 displayName="橙宝石" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
@@ -25,7 +25,7 @@ displayName="橙宝石" #mandatory
 # A URL for the "homepage" for this mod, displayed in the mod UI
 #displayURL="https://change.me.to.your.mods.homepage.example.invalid/" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
-logoFile="logo.png" #optional
+logoFile= "src/main/resources/META-INF/logo.png" #optional
 # A text field displayed in the mod UI
 credits="XWJ" #optional
 # A text field displayed in the mod UI
@@ -39,21 +39,10 @@ authors="Riordon" #optional
 #displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''这是Riordon的模组,当前版本为2.0,
+description='''这是Riordon的模组,当前版本为2.2,
 更新日志：
-1.新增食物‘黄瓜’,吃下获得1分钟‘生命恢复’效果;
-2.新增食物‘莴苣’,吃下获得1分钟‘抗性提升’效果;
-3.新增食物‘菠菜’,吃下获得1分钟‘迅捷’效果;
-4.新增食物‘番茄’,吃下获得1分钟‘跳跃提升’效果;
-5.新增食物‘沙拉’,吃下获得1分15秒上述四类效果;
-6.新增物品‘盘子’,可与四种蔬菜合成沙拉;
-7.新增方块‘红宝石块’,通过9颗红宝石合成;
-8.新增‘橙宝石盔甲’,可通过橙宝石合成;
-9.新增各类成就,欢迎玩家自由探索各种彩蛋;
-10.更新‘橙宝石铲’和‘橙宝石锄’的材质;
-11.更改‘橙宝石合成’配方，现需要4钻石+4红宝石+1红宝石块合成1颗橙宝石;
-
-感谢GHX提供材质'''
+新增全新维度“红宝石大陆”,使用红宝石块搭建成类似下界传送门的格式,并用打火石激活,该维度用红宝石矿填充了所有泥土和石头,但是能正常生成各种主世界的建筑。
+'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.${mod_id}]] #optional
     # the modid of the dependency

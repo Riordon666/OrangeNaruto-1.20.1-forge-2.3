@@ -1,0 +1,6 @@
+{
+  "parent":[
+    "test:block/red_portal_ew",
+    "test:block/red_portal_ns"
+  ]
+}
