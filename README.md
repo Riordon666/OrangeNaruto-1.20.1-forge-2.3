@@ -2,7 +2,9 @@
 <div align="center">
 
 [![下载链接](https://www.curseforge.com/minecraft/mc-mods/orangenaruto/download/6366502)]
+
 [![前置模组](https://www.curseforge.com/minecraft/mc-mods/orangelibrary/download/6363888)]
+
 [![License](https://img.shields.io/badge/协议-MIT-blue)](LICENSE)
 
 </div>
