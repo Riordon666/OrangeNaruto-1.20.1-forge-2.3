@@ -1,3 +1,25 @@
+<!-- 顶部徽章 -->
+<div align="center">
+
+[![Mod Version](https://modrinth.com/mod/orangenaruto/versions)](下载链接)
+[![Required](https://modrinth.com/mod/orangelibrary/versions)](前置库链接)
+[![License](https://img.shields.io/badge/协议-MIT-blue)](LICENSE)
+
+</div>
+
+<h1 align="center">🍊⚔️ 橙宝石-火影忍者模组 OrangeNaruto Mod</h1>
+
+## 🌟 核心特性
+
+### 🔍 勘探系统（1.5+）
+```markdown
+- **双宝石体系**  
+  ▸ 红宝石矿生成于Y=-32以下层  
+  ▸ 橙宝石合成公式：4钻石 + 4红宝石 + 1红宝石块  
+- **智能探测器**  
+  `矿石探测器` 扫描Y轴矿物分布  
+   `宝箱雷达` 探测100格内容器
+
 这是Riordon666的模组,当前版本为2.3,模组由'橙宝石'更名为'橙宝石-火影忍者',
 更新日志：
 1.修复了橙宝石模组中各种物品生成时会异常占据要塞宝箱、要塞图书馆宝箱、末地城宝箱中战利品的问题,更新后橙宝石模组内的物品不再会刷新在这些战利品宝箱中;
