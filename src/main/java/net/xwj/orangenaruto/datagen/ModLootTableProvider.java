@@ -55,7 +55,6 @@ public class ModLootTableProvider extends LootTableProvider {
                     BuiltInLootTables.IGLOO_CHEST,
 
                     // 末地和下界
-                    BuiltInLootTables.END_CITY_TREASURE,
                     BuiltInLootTables.BASTION_TREASURE,
 
                     // 其他

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " z ",
+    " z ",
+    "   "
+  ],
+  "key": {
+    "z": {
+      "item": "orangenaruto:headband_red"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:headband_youtube",
+    "count": 1
+  }
+}

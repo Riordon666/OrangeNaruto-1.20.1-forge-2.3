@@ -1,0 +1,75 @@
+package net.xwj.orangenaruto.moditem.armor;
+
+import net.xwj.orangenaruto.OrangeNaruto;
+import net.xwj.orangenaruto.client.renderer.NarutoRenderEvents;
+import net.xwj.orangenaruto.moditem.interfaces.IShouldHideNameplate;
+import net.minecraft.client.model.HumanoidModel;
+import net.minecraft.client.renderer.BlockEntityWithoutLevelRenderer;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.entity.LivingEntity;
+import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.item.ArmorMaterial;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.client.extensions.common.IClientItemExtensions;
+
+import javax.annotation.Nullable;
+import java.util.function.Consumer;
+
+public class NarutoArmorItem extends ArmorItem implements IShouldHideNameplate {
+
+    private HumanoidModel armorModel = null;
+    private String armorTexture = null;
+    private boolean forceHideName = false;
+
+    public NarutoArmorItem(ArmorMaterial armorMaterial, Type type, Properties properties) {
+        super(armorMaterial, type, properties);
+    }
+
+    @Nullable
+    @Override
+    public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
+        return armorTexture;
+    }
+
+    public NarutoArmorItem setArmorModel(HumanoidModel<? extends LivingEntity> armorModel) {
+        this.armorModel = armorModel;
+        return this;
+    }
+
+    public NarutoArmorItem setShouldHideNameplate(boolean shouldHide) {
+        this.forceHideName = shouldHide;
+        return this;
+    }
+
+    public NarutoArmorItem setArmorTexture(String armorTexture) {
+        this.armorTexture = OrangeNaruto.MODID + ":" + armorTexture;
+        return this;
+    }
+
+    @Override
+    public boolean shouldHideNameplate(Entity entity) {
+        return this.forceHideName;
+    }
+
+
+    // A little confusing but this is how it works now
+    @Override
+    public void initializeClient(Consumer<IClientItemExtensions> consumer) {
+        super.initializeClient(consumer);
+        consumer.accept(new IClientItemExtensions() {
+
+            @Override
+            public BlockEntityWithoutLevelRenderer getCustomRenderer()
+            {
+                return NarutoRenderEvents.NARUTO_RENDERER;
+            }
+
+            @Override
+            public HumanoidModel getHumanoidArmorModel(LivingEntity entityLiving, ItemStack itemStack, EquipmentSlot armorSlot, HumanoidModel _default) {
+                return armorModel;
+            }
+        });
+    }
+}

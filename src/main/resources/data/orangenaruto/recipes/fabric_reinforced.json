@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "xx ",
+    "   "
+  ],
+  "key": {
+    "x": {
+      "item": "orangenaruto:fabric"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:fabric_reinforced",
+    "count": 1
+  }
+}

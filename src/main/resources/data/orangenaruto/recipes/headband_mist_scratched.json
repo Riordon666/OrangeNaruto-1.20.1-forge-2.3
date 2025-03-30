@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " z ",
+    "xy ",
+    " a "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:white_dye"
+    },
+    "y": {
+      "item": "minecraft:water_bucket"
+    },
+    "z": {
+      "item": "orangenaruto:headband_black"
+    },
+    "a": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:headband_mist_scratched",
+    "count": 1
+  }
+}

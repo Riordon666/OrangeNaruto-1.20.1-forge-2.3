@@ -15,11 +15,11 @@ license="${mod_license}"
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
-modId="test" #mandatory
+modId="orangenaruto" #mandatory
 # The version number of the mod
-version="1.20.1-2.1" #mandatory
+version="1.20.1-2.3" #mandatory
 # A display name for the mod
-displayName="橙宝石" #mandatory
+displayName="橙宝石-火影忍者" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
 #updateJSONURL="https://change.me.example.invalid/updates.json" #optional
 # A URL for the "homepage" for this mod, displayed in the mod UI
@@ -39,9 +39,16 @@ authors="Riordon" #optional
 #displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 
 # The description text for the mod (multi line!) (#mandatory)
-description='''这是Riordon的模组,当前版本为2.2,
+description='''这是Riordon666的模组,当前版本为2.3,模组由'橙宝石'更名为'橙宝石-火影忍者',
 更新日志：
-新增全新维度“红宝石大陆”,使用红宝石块搭建成类似下界传送门的格式,并用打火石激活,该维度用红宝石矿填充了所有泥土和石头,但是能正常生成各种主世界的建筑。
+1.修复了橙宝石模组中各种物品生成时会异常占据要塞宝箱、要塞图书馆宝箱、末地城宝箱中战利品的问题,更新后橙宝石模组内的物品不再会刷新在这些战利品宝箱中;
+2.新增忍者系统,游戏内按'J'键打开忍术菜单,即可选择成为忍者,也随时可以取消成为忍者;
+3.成为忍者后,按'R'键即可进行飞跃,按'G'键即可激活水上行走,注意：飞跃与水上行走均会使用查克拉,当查克拉耗尽将会禁止使用,查克拉可以在自然状态下回复;
+4.新增'苦无'、'起爆符'、'起爆符苦无'、'手里剑'、'千本'、'武士刀'、'5种颜色的暗部面具'、'暗部护甲'、'晓组织披风'、
+'木叶/岩隐/砂隐/音隐/雾隐/云隐/雨隐/草隐/泷隐忍者头带及其叛忍划痕版'、'两种护甲衣'、'多种布料和护甲板',具体内容以及合成配方请自行游玩体验;
+5.适配了多种语言,所有按键均可在按键绑定中自行绑定;
+6.各种忍术正在开发中,未来将会上线天照、地爆天星等忍术,敬请期待;
+7.本次更新后需要下载添加前置mod才能进行游玩,前置mod名为OrangeLibrary,包名为orangellib-1.20.1-1.0.jar。
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.${mod_id}]] #optional
@@ -66,6 +73,14 @@ description='''这是Riordon的模组,当前版本为2.2,
     ordering="NONE"
     side="BOTH"
 
+[[dependencies.${mod_id}]]
+modId = "orangelib"
+mandatory = true
+versionRange = "1.0" # 无上限则可以留空
+ordering = "NONE"
+side = "BOTH"
+
+# 各项含义请参照原文件内的注释
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
 # that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't
 # stop your mod loading on the server for example.

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xxx",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "orangenaruto:orange_gemstone"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:orange_gemstone_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  y",
+    " x ",
+    "z  "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:stick"
+    },
+    "y": {
+      "item": "minecraft:iron_ingot"
+    },
+    "z": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:kunai",
+    "count": 2
+  }
+}

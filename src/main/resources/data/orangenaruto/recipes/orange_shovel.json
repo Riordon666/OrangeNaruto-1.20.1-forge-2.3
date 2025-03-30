@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " x ",
+    " y ",
+    " y "
+  ],
+  "key": {
+    "x": {
+      "item": "orangenaruto:orange_gemstone"
+    },
+    "y": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:orange_shovel",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+    "parent": "orangenaruto:block/paper_bomb",
+    "render_type": "translucent",
+    "textures": {
+        "0": "orangenaruto:block/weapons/paperbomb_trans",
+        "particle": "orangenaruto:blocks/weapons/paperbomb"
+    }
+}

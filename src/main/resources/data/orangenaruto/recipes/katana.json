@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  y",
+    " y ",
+    "x  "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:iron_nugget"
+    },
+    "y": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:katana",
+    "count": 1
+  }
+}

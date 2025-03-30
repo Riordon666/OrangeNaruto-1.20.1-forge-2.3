@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "orangenaruto:plate"
+    },
+    "title": "盘子都吃你是真的饿了",
+    "description": "不小心把盘子吃下去"
+  },
+  "parent": "orangenaruto:salad",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "orangenaruto:plate"
+          ]
+        }
+      }
+    }
+  }
+}

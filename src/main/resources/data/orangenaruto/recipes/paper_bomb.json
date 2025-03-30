@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "xyz",
+    "   "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:paper"
+    },
+    "y": {
+      "item": "orangenaruto:red_gemstone"
+    },
+    "z": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:paper_bomb",
+    "count": 1
+  }
+}

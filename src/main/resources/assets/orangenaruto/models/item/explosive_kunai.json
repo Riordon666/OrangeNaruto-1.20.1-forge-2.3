@@ -1,0 +1,6 @@
+{
+  "parent": "orangenaruto:item/kunai",
+  "textures": {
+    "layer0": "orangenaruto:item/weapons/explosive_kunai"
+  }
+}

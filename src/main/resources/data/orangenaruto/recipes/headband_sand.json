@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " z ",
+    " y ",
+    "   "
+  ],
+  "key": {
+    "y": {
+      "item": "minecraft:sand"
+    },
+    "z": {
+      "item": "orangenaruto:headband_black"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:headband_sand",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS" ,
+    "S S",
+    "   "
+  ],
+  "key": {
+    "S": {
+      "item": "orangenaruto:orange_gemstone"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:orange_helmet",
+    "count": 1
+  }
+}

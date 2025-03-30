@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "orangenaruto:block/red_portal_ns"
+    },
+    "axis=z": {
+      "model": "orangenaruto:block/red_portal_ew"
+    }
+  }
+}

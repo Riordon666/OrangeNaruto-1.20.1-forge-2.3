@@ -1,0 +1,52 @@
+package net.xwj.orangenaruto.abilities.jutsus;
+
+import net.xwj.orangenaruto.abilities.Ability;
+import net.xwj.orangenaruto.capabilities.INinjaData;
+import net.xwj.orangenaruto.entity.jutsuprojectile.FireballJutsuEntity;
+import net.xwj.orangenaruto.sounds.NarutoSounds;
+import net.minecraft.ChatFormatting;
+import net.minecraft.network.chat.Component;
+import net.minecraft.sounds.SoundSource;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.phys.Vec3;
+
+/**
+ * More of a slight speed boost than an actual dash
+ */
+public class FireballJutsuAbility extends Ability implements Ability.Cooldown {
+
+    @Override
+    public ActivationType activationType() {
+        return ActivationType.INSTANT;
+    }
+
+    @Override
+    public long defaultCombo() {
+        return 121;
+    }
+
+    @Override
+    public boolean handleCost(Player player, INinjaData ninjaData, int chargeAmount) {
+        if(ninjaData.getChakra() < 30) {
+            player.displayClientMessage(Component.translatable("jutsu.fail.notenoughchakra", Component.translatable(this.getTranslationKey(ninjaData)).withStyle(ChatFormatting.YELLOW)), true);
+            return false;
+        }
+        ninjaData.useChakra(30, 30);
+        return true;
+    }
+
+    @Override
+    public void performServer(Player player, INinjaData ninjaData, int ticksActive) {
+        ninjaData.scheduleDelayedTickEvent((delayedPlayer) -> {
+            Vec3 shootSpeed = player.getLookAngle();
+            FireballJutsuEntity fireball = new FireballJutsuEntity(player, shootSpeed.x, shootSpeed.y, shootSpeed.z);
+            player.level().addFreshEntity(fireball);
+            player.level().playSound(null, player, NarutoSounds.FIREBALL_SHOOT.get(), SoundSource.PLAYERS, 1f, 1.0f);
+        }, 10);
+    }
+
+    @Override
+    public int getCooldown() {
+        return 3 * 20;
+    }
+}

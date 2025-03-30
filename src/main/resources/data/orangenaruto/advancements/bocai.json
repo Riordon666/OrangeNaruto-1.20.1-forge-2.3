@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "orangenaruto:bocai"
+    },
+    "title": "吃了菠菜就变大力水手",
+    "description": "吃一口菠菜"
+  },
+  "parent": "orangenaruto:salad",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "orangenaruto:bocai"
+          ]
+        }
+      }
+    }
+  }
+}

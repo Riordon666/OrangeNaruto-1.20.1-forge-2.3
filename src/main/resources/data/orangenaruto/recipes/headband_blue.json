@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " z ",
+    "yyy",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:iron_ingot"
+    },
+    "y": {
+      "item": "orangenaruto:fabric"
+    },
+    "z": {
+      "item": "minecraft:blue_dye"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:headband_blue",
+    "count": 1
+  }
+}

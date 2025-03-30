@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  y",
+    " y ",
+    "y  "
+  ],
+  "key": {
+    "y": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:senbon",
+    "count": 2
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "xy ",
+    "   "
+  ],
+  "key": {
+    "x": {
+      "item": "orangenaruto:armor_plate"
+    },
+    "y": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:armor_plate_green",
+    "count": 1
+  }
+}

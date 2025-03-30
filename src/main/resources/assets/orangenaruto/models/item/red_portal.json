@@ -1,0 +1,6 @@
+{
+  "parent":[
+    "orangenaruto:block/red_portal_ew",
+    "orangenaruto:block/red_portal_ns"
+  ]
+}

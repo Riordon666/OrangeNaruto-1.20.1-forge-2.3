@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "xy ",
+    "   "
+  ],
+  "key": {
+    "x": {
+      "item": "orangenaruto:fabric_reinforced"
+    },
+    "y": {
+      "item": "minecraft:black_dye"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:fabric_reinforced_black",
+    "count": 1
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "item.orangenaruto.kunai":"Кунай",
+  "item.orangenaruto.shuriken":"Сюрикен",
+  "item.orangenaruto.explosive_kunai":"Взрывной Кунай",
+  "item.orangenaruto.senbon":"Игла",
+  "block.orangenaruto.paper_bomb":"Бумажная Бомба",
+  "orangenaruto.subtitle.kunai_thud": "Удар Снарядом",
+  "orangenaruto.subtitle.needle_hit": "Попадание Иглы",
+  "itemGroup.orangenaruto_weapons": "Оружия Ниндзя",
+  "item.orangenaruto.red_anbu_mask": "Красная Маска Анбу",
+  "item.orangenaruto.yellow_anbu_mask": "Желтая Маска Анбу",
+  "item.orangenaruto.green_anbu_mask": "Зеленая Маска Анбу",
+  "item.orangenaruto.blue_anbu_mask": "Синяя Маска Анбу",
+  "item.orangenaruto.mist_anbu_mask": "Маска Анбу(Хаку)",
+  "item.orangenaruto.headband_blue": "Синяя повязка(Пустая)",
+  "item.orangenaruto.headband_black": "Черная повязка(Пустая)",
+  "item.orangenaruto.headband_red": "Красная повязка(Пустая)",
+  "block.orangenaruto.bonsai_tree":"Дерево Бонсай",
+  "itemGroup.orangenaruto_armor": "Броня Ниндзя",
+  "orangenaruto.subtitle.sizzle": "Шипящая Бумажная Бомба",
+  "itemGroup.orangenaruto_headbands": "Повязки Ниндзя"
+}

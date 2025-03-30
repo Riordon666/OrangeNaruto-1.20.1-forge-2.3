@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xyx",
+    "yzy",
+    "xyx"
+  ],
+  "key": {
+    "x": {
+      "item": "orangenaruto:red_gemstone"
+    },
+    "y": {
+      "item": "minecraft:diamond"
+    },
+    "z": {
+      "item": "orangenaruto:red_block"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:orange_gemstone",
+    "count": 1
+  }
+}

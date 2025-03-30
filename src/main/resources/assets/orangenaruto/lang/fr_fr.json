@@ -1,0 +1,22 @@
+{
+  "item.orangenaruto.kunai":"Kunaï",
+  "item.orangenaruto.shuriken":"Shuriken",
+  "item.orangenaruto.explosive_kunai":"Kunai explosif",
+  "item.orangenaruto.senbon":"Aiguille",
+  "block.orangenaruto.paper_bomb":"Bombe en papier",
+  "orangenaruto.subtitle.kunai_thud": "Coup de projectile",
+  "orangenaruto.subtitle.needle_hit": "Coup d'aiguille",
+  "itemGroup.orangenaruto_weapons": "Armes Ninja",
+  "item.orangenaruto.red_anbu_mask": "Masque Anbu Rouge",
+  "item.orangenaruto.yellow_anbu_mask": "Masque Anbu Jaune",
+  "item.orangenaruto.green_anbu_mask": "Masque Anbu Vert",
+  "item.orangenaruto.blue_anbu_mask": "Masque Anbu Bleu",
+  "item.orangenaruto.mist_anbu_mask": "Masque Anbu(Haku)",
+  "item.orangenaruto.headband_blue": "Bandeau bleu (vide)",
+  "item.orangenaruto.headband_black": "Bandeau noir (vide)",
+  "item.orangenaruto.headband_red": "Bandeau rouge (vide)",
+  "block.orangenaruto.bonsai_tree":"Un bonsai",
+  "itemGroup.orangenaruto_armor": "Armure Ninja",
+  "orangenaruto.subtitle.sizzle": "Bombe en papier grésillante",
+  "itemGroup.orangenaruto_headbands": "Protège-mains Ninja"
+}

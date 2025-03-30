@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " z ",
+    " y ",
+    "   "
+  ],
+  "key": {
+    "y": {
+      "item": "minecraft:redstone"
+    },
+    "z": {
+      "item": "orangenaruto:headband_red"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:headband_sound",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "zzz",
+    "zyz",
+    "zzz"
+  ],
+  "key": {
+    "y": {
+      "item": "orangenaruto:fabric_reinforced"
+    },
+    "z": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:headband_custard",
+    "count": 1
+  }
+}

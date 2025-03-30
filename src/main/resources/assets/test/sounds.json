@@ -1,8 +1,0 @@
-{
-  "teleport": {
-    "subtitle": "sounds.test.teleport",
-    "sounds": [
-      "test:teleport"
-    ]
-  }
-}

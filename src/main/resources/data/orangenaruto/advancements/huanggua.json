@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "orangenaruto:huanggua"
+    },
+    "title": "这黄瓜我真的只是拿来吃的!",
+    "description": "吃一根黄瓜"
+  },
+  "parent": "orangenaruto:salad",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "orangenaruto:huanggua"
+          ]
+        }
+      }
+    }
+  }
+}

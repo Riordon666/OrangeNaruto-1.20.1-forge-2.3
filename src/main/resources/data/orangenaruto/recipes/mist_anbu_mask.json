@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " z ",
+    " y ",
+    "x  "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:red_dye"
+    },
+    "y": {
+      "item": "orangenaruto:armor_plate"
+    },
+    "z": {
+      "item": "minecraft:white_dye"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:mist_anbu_mask",
+    "count": 1
+  }
+}

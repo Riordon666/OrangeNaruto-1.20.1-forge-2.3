@@ -6,8 +6,8 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.network.NetworkEvent;
-import net.xwj.orangenaruto.capability.PlayerTeleportPosProvider;
-import net.xwj.orangenaruto.sound.ModSounds;
+import net.xwj.orangenaruto.capabilities.PlayerTeleportPosProvider;
+import net.xwj.orangenaruto.sounds.ModSounds;
 
 import java.util.function.Supplier;
 

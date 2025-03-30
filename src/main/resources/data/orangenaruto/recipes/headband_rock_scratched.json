@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " z ",
+    " y ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:iron_nugget"
+    },
+    "y": {
+      "item": "minecraft:stone"
+    },
+    "z": {
+      "item": "orangenaruto:headband_red"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:headband_rock_scratched",
+    "count": 1
+  }
+}

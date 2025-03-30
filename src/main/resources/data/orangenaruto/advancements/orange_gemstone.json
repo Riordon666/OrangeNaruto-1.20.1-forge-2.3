@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "orangenaruto:orange_gemstone"
+    },
+    "title": "这就是传说中的橙宝石吗?",
+    "description": "获得第一颗橙宝石",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "orangenaruto:orange_gemstone"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

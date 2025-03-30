@@ -1,7 +1,7 @@
 {
   "values": [
-    "test:orange_gemstone_block",
-    "test:red_ore",
-    "test:red_block"
+    "orangenaruto:orange_gemstone_block",
+    "orangenaruto:red_ore",
+    "orangenaruto:red_block"
   ]
 }

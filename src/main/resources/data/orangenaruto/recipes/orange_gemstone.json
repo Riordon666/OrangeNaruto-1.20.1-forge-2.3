@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "orangenaruto:orange_gemstone_block"
+    }
+  ],
+  "result":
+  {
+    "item":"orangenaruto:orange_gemstone",
+    "count": 9
+  }
+}

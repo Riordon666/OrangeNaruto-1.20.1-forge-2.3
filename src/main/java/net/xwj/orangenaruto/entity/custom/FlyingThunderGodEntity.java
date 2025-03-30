@@ -28,7 +28,7 @@ import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.network.chat.Component;
 import net.xwj.orangenaruto.registry.ModEntities;
-import net.xwj.orangenaruto.capability.PlayerTeleportPosProvider;
+import net.xwj.orangenaruto.capabilities.PlayerTeleportPosProvider;
 
 public class FlyingThunderGodEntity extends Projectile {
     private static final EntityDataAccessor<ItemStack> DATA_ITEM = SynchedEntityData.defineId(FlyingThunderGodEntity.class, EntityDataSerializers.ITEM_STACK);

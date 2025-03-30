@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " z ",
+    " y ",
+    "   "
+  ],
+  "key": {
+    "y": {
+      "item": "minecraft:spruce_planks"
+    },
+    "z": {
+      "item": "orangenaruto:headband_black"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:headband_cloud",
+    "count": 1
+  }
+}

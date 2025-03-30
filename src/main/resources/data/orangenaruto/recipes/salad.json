@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " a ",
+    "bcd",
+    "yxy"
+  ],
+  "key": {
+    "x": {
+      "item": "orangenaruto:plate"
+    },
+    "a": {
+      "item": "orangenaruto:huanggua"
+    },
+    "b": {
+      "item": "orangenaruto:woju"
+    },
+    "c": {
+      "item": "orangenaruto:fanqie"
+    },
+    "d": {
+      "item": "orangenaruto:bocai"
+    },
+    "y": {
+      "item": "orangenaruto:red_gemstone"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:salad",
+    "count": 1
+  }
+}

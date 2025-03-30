@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "xy ",
+    "   "
+  ],
+  "key": {
+    "x": {
+      "item": "orangenaruto:kunai"
+    },
+    "y": {
+      "item": "orangenaruto:paper_bomb"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:explosive_kunai",
+    "count": 1
+  }
+}

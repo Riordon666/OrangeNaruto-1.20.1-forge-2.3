@@ -1,0 +1,123 @@
+{
+  "teleport": {
+    "subtitle": "sounds.orangenaruto.teleport",
+    "sounds": [
+      "orangenaruto:teleport"
+    ]
+  },
+  "kunai_thud": {
+    "category": "neutral",
+    "sounds": [
+      "orangenaruto:weapons/kunai_thud"
+    ],
+    "subtitle": "orangenaruto.subtitle.kunai_thud"
+  },
+  "needle_hit": {
+    "category": "neutral",
+    "sounds": [
+      "orangenaruto:weapons/needle_hit"
+    ],
+    "subtitle": "orangenaruto.subtitle.needle_hit"
+  },
+  "seal_a": {
+    "sounds": [
+      "orangenaruto:jutsu/seal_a"
+    ],
+    "subtitle": "orangenaruto.subtitle.jutsu_seal"
+  },
+  "seal_b": {
+    "sounds": [
+      "orangenaruto:jutsu/seal_b"
+    ],
+    "subtitle": "orangenaruto.subtitle.jutsu_seal"
+  },
+  "jutsu_cast": {
+    "sounds": [
+      "orangenaruto:jutsu/jutsu_cast"
+    ],
+    "subtitle": "orangenaruto.subtitle.jutsu_cast"
+  },
+  "jutsu_fail": {
+    "sounds": [
+      "orangenaruto:jutsu/jutsu_fail"
+    ],
+    "subtitle": "orangenaruto.subtitle.jutsu_fail"
+  },
+  "seal_c": {
+    "sounds": [
+      "orangenaruto:jutsu/seal_c"
+    ],
+    "subtitle": "orangenaruto.subtitle.jutsu_seal"
+  },
+  "fireball.shoot": {
+    "sounds": [
+      "mob/ghast/fireball4"
+    ],
+    "subtitle": "orangenaruto.subtitle.fireball.shoot"
+  },
+  "fireball.explosion": {
+    "sounds": [
+      "random/explode1",
+      "random/explode2",
+      "random/explode3",
+      "random/explode4"
+    ],
+    "subtitle": "orangenaruto.subtitle.fireball.explosion"
+  },
+  "waterbullet.shoot": {
+    "sounds": [
+      "liquid/swim5",
+      "liquid/swim6",
+      "liquid/swim7",
+      "liquid/swim8",
+      "liquid/swim9",
+      "liquid/swim10",
+      "liquid/swim11",
+      "liquid/swim12",
+      "liquid/swim13",
+      "liquid/swim14",
+      "liquid/swim15",
+      "liquid/swim16",
+      "liquid/swim17",
+      "liquid/swim18"
+    ],
+    "subtitle": "orangenaruto.subtitle.waterbullet.shoot"
+  },
+  "waterbullet.splash": {
+    "sounds": [
+      "mob/dolphin/splash1",
+      "mob/dolphin/splash2",
+      "mob/dolphin/splash3"
+    ],
+    "subtitle": "orangenaruto.subtitle.waterbullet.splash"
+  },
+  "sizzle": {
+    "sounds": [
+      "orangenaruto:weapons/sizzle"
+    ],
+    "subtitle": "orangenaruto.subtitle.sizzle"
+  },
+  "lonely_march": {
+    "sounds": [
+      {
+        "name": "orangenaruto:records/lonely_march",
+        "stream": true
+      }
+    ]
+  },
+  "leap": {
+    "sounds": [
+      "orangenaruto:abilities/leap",
+      "orangenaruto:abilities/leap2"
+    ],
+    "subtitle": "orangenaruto.subtitle.leap"
+  },
+  "double_jump": {
+    "sounds": [
+      "orangenaruto:abilities/doublejump",
+      "orangenaruto:abilities/doublejump2",
+      "orangenaruto:abilities/doublejump3"
+    ],
+    "subtitle": "ability.double_jump"
+  }
+}

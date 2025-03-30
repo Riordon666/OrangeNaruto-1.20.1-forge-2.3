@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "orangenaruto:orange_pickaxe"
+    },
+    "title": "最强挖掘神器!",
+    "description": "获得第一把橙宝石镐",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "orangenaruto:orange_sword",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "orangenaruto:orange_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

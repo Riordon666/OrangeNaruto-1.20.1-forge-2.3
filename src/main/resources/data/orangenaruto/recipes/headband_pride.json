@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " z ",
+    " y ",
+    " x "
+  ],
+  "key": {
+    "x": {
+      "item": "orangenaruto:headband_red"
+    },
+    "y": {
+      "item": "orangenaruto:headband_black"
+    },
+    "z": {
+      "item": "orangenaruto:headband_blue"
+    }
+  },
+  "result": {
+    "item": "orangenaruto:headband_pride",
+    "count": 1
+  }
+}
