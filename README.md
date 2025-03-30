@@ -1,8 +1,8 @@
 <!-- 顶部徽章 -->
 <div align="center">
 
-[![下载链接](https://modrinth.com/mod/orangenaruto/versions)](下载链接)
-[![前置模组](https://modrinth.com/mod/orangelibrary/versions)](前置库链接)
+[![下载链接](https://legacy.curseforge.com/minecraft/mc-mods/orangenaruto/download/6366502)](下载链接)
+[![前置模组](https://www.curseforge.com/minecraft/mc-mods/orangelibrary/download/6363888)](前置库链接)
 [![License](https://img.shields.io/badge/协议-MIT-blue)](LICENSE)
 
 </div>
@@ -17,17 +17,17 @@
   ▸ 橙宝石合成公式：4钻石 + 4红宝石 + 1红宝石块  
 - **智能探测器**  
   `矿石探测器` 扫描Y轴矿物分布  
-   `宝箱雷达` 探测100格内容器
+   `宝箱雷达` 探测100格内的战利品宝箱
 
 ### 🥗 生存系统（2.0+）
 | 食物      | 效果              | 持续时间 |
 |-----------|-------------------|----------|
 | 黄瓜      | `生命恢复`         | 60s      |
 | 菠菜      | `速度提升`         | 60s      |
-| 莴苣      | `抗性提升`         | 75s      |
+| 莴苣      | `抗性提升`         | 60s      |
 | 番茄      | `跳跃提升`         | 60s      |
-| 菠菜      | 速度提升 II       | 60s      |
-| 沙拉      | 全效果增强版      | 75s      |
+| 盘子      | `神奇效果`         | 60s      |
+| 沙拉      | `全效果增强版`     | 75s      |
 
 ### 🌀 忍者系统（2.3+）
 |  按键      | 功能              |
@@ -50,6 +50,12 @@
   ▸ 4.制作橙宝石工具套装
   
   ▸ 5.搭建红宝石门进入次元
+
+
+### 🚧 未来开发计划
+- **天照技能**
+- **地爆天星** 
+
 
 ### 2.3版本更新日志：
 这是Riordon666的模组,当前版本为2.3,模组由'橙宝石'更名为'橙宝石-火影忍者',
